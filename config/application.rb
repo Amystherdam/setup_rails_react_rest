@@ -31,7 +31,11 @@ module SetupRailsReactRest
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
 
-    # Don't generate system test files.
-    config.generators.system_tests = nil
+    config.generators do |generator|
+      generator.system_tests = nil
+      generator.stylesheets = false
+      generator.javascripts = false
+      generator.helper = false
+    end
   end
 end
