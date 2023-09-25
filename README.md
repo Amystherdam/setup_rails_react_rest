@@ -1,8 +1,17 @@
 # Basic setup for RoR with React and Rest Architecture
 
+![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)![Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
 Hello this is a basic tutorial of an setup for RoR with React
 
 The README will provide step-by-step instructions for creating your own application bases with Rails and React
+
+### Versions
+
+- Ruby 3.1.2
+- Rails 7.0.4
+- React 18.2.0
+- Find more informations in `Gemfile` and `package.json`
 
 ### Creating the project
 
