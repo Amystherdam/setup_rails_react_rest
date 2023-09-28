@@ -100,7 +100,7 @@ export default function Home() {
   return (
     <div class="flex justify-items-center justify-center items-center h-screen">
       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-        Subscribe
+        Exit
       </button>
     </div>
   );
@@ -429,7 +429,7 @@ function UserSignin() {
       errors={errors}
       value={value}
       messages={{
-        required: "o campo é obrigatório",
+        required: "required",
       }}
       aria-label="login-form"
     >
@@ -441,8 +441,8 @@ function UserSignin() {
       />
       <label htmlFor="email">E-mail</label>
 
-      <input type="password" placeholder="password" name="password" />
-      <label htmlFor="password">Senha</label>
+      <input type="password" placeholder="Password" name="password" />
+      <label htmlFor="password">Password</label>
 
       <input type="submit" disabled={loading} value="Enviar" />
     </form>
@@ -450,7 +450,6 @@ function UserSignin() {
 }
 
 export default UserSignin;
-
 ```
 
 `/Components/Pages/Login/UserSignin` will contain redirect logic
@@ -535,10 +534,7 @@ User.create(email: 'user_name@domain.com', password: 'your_password')
 
 #### TO DO
 
-- [ ] current_user exist?
 - [ ] Two forms of authentication
-- [ ] Check if there are texts in Portuguese yet
-- [ ] Create a schema from other documentation files
 - [ ] Insert Jest tests setup
 - [ ] Deploy Heroku
 

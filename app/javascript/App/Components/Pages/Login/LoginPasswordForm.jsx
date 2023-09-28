@@ -39,7 +39,7 @@ function UserSignin() {
       errors={errors}
       value={value}
       messages={{
-        required: "o campo é obrigatório",
+        required: "required",
       }}
       aria-label="login-form"
     >
@@ -51,8 +51,8 @@ function UserSignin() {
       />
       <label htmlFor="email">E-mail</label>
 
-      <input type="password" placeholder="password" name="password" />
-      <label htmlFor="password">Senha</label>
+      <input type="password" placeholder="Password" name="password" />
+      <label htmlFor="password">Password</label>
 
       <input type="submit" disabled={loading} value="Enviar" />
     </form>
